@@ -9,16 +9,20 @@
   }
 
   img{
-    width: 269px;
-    height: 1290px;
+    width: 210px;
+    height: 1200px;
   }
-  .github, .spotify{
-    width: 269px;
-    height: 550px;
+  .github{
+    width: 210px;
+    height: 400px;
+  }
+   .spotify{
+    width: 220px;
+    height: 400px;
   }
   .linkedin{
-    width: 269px;
-    height: 2500px; 
+    width: 210px;
+    height: 2100px; 
   }
   a{
     display: block;

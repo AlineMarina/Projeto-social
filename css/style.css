@@ -1,8 +1,8 @@
+@charset "UTF-8"
 * {
     margin: 0px;
     padding: 0px;
 }
-@media  {(max-width: 768px) and(min-width: 1024px)}
 
 html, body{ 
 
@@ -25,24 +25,24 @@ main{
 .telefone{
     position: absolute;
     top: 6%;
-    left: 45.5%;
+    left: 15%;
 
     transform: translate(-50px, -50px);
-    height: 627px;
-    width: 311px;
-    background:url(../imagens/frame-iphone.png)
+    height: 500px;
+    width: 250px;
+    background:url(../imagens/frame-iphone.png);
+    background-size: contain;
+    background-attachment: fixed;
 }
 iframe.tela{
     position: relative;
-    top: 50px;
-    left: 22px;
-    width: 269px;
-    height: 500px;
+    top: 63px;
+    left: 17px;
+    width: 210px;
+    height: 373px;
     
 }
-/*.redes-sociais{
-    text-align: right;
-}*/
+
 .redes-sociais img {
     width: 50px;
     margin: 10px;
