@@ -1,0 +1,32 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  ::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+  }
+
+  img{
+    width: 269px;
+    height: 1290px;
+  }
+  .github, .spotify{
+    width: 269px;
+    height: 550px;
+  }
+  .linkedin{
+    width: 269px;
+    height: 2500px; 
+  }
+  a{
+    display: block;
+    background-color: #53a678;
+    color: #fff6e6;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
