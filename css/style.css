@@ -1,12 +1,13 @@
-@charset "UTF-8"
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+@media  {(max-width: 768px) and(min-width: 1024px)}
 
 html, body{ 
+
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
     overflow: hidden; 
 }
 body{
@@ -18,7 +19,7 @@ body{
 main{
     position: relative;
     height: 200vh;
-    width: 200wh;
+    width: 200vw;
 }
 
 .telefone{
